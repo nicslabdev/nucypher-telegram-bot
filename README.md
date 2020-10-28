@@ -11,11 +11,12 @@ You need to set some scheduler, e.g. Cron, to launch the monitor once a day, e.g
 ## Prerequisites
 
 1. You need to create first a Telegram Bot and get the corresponding TOKEN. Just follow this guide: [Bots: An introduction for developers](https://core.telegram.org/bots)
-2. You also need to get the ChatID of your Bot. In order to get it, start a conversation with your bot and get the list of updates of your bot using the following URL:
+
+2. You also need to get the ChatID of your Bot. In order to get it, start a conversation with your bot and look for the "chat" object and ID property in the list of updates of your bot using the following URL:
 ```
 https://api.telegram.org/bot<YourBOTToken>/getUpdates
 ```
-Look for the "chat" object and copy the ID property.
+
 3. You need to register to Infura and get the Infura endpoint. 
 
 ## Installation
