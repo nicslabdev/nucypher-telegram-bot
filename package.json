@@ -1,0 +1,16 @@
+{
+  "name": "nucypher-telegram-bot",
+  "version": "0.0.1",
+  "description": "Receive notifications from your node in your Telegram client",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Agudo",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0",
+    "web3": "^1.3.0"
+  }
+}
